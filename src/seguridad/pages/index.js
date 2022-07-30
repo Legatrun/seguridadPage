@@ -1,0 +1,5 @@
+export * from './BlogPage'
+export * from './ContactoPage'
+export * from './NosotrosPage'
+export * from './HomePage'
+export * from './ServiciosPage'
