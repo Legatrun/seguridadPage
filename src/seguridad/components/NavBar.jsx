@@ -15,11 +15,12 @@ export const NavBar = () => {
     };
 
     return (
-        <Box sx={{ display: 'flex' }}>
+        <Box >
 
             <AppBar
                 component="nav"
                 position="fixed"
+                className="navbar"
             >
                 <Toolbar>
                     <IconButton

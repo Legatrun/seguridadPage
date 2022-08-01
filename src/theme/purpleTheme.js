@@ -6,15 +6,14 @@ export const purpleTheme = createTheme({
         MuiToolbar: {
             styleOverrides: {
                 root: {
-                    height: 90,
-                    minHeight: 90
+                    height: 90
                 }
             }
         }
     },
     palette: {
         primary:{
-            main: '#272727'
+            main: '#000'
         },
         secondary:{
             main: '#353535'

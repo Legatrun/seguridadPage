@@ -7,24 +7,20 @@ export const SeguridadLayout = ({ children }) => {
     <Box sx={{ display: "flex" }}>
       <Grid
         container
-        spacing={0}
         // direction="column"
         justifyContent="center"
-        sx={{ minHeight: "100vh", backgroundColor: "primary.main" }}
+        sx={{ minHeight: "100vh" }}
       >
         <Grid
           item
-          className="box-shadow"
           xs={12}
-          sm={9}
           sx={{
-            height: { xs: "100%" },
-            backgroundColor: "white"
+            height: { xs: "100%" }
           }}
         >
           <NavBar />
-          <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-            <Toolbar />
+          <Box component="main" className="boxLayout">
+            <Toolbar className="toolbarLayout" />
             {children}
           </Box>
           <Footer />

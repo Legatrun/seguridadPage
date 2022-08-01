@@ -5,11 +5,9 @@ import { FacebookOutlined, Twitter, Instagram, ArrowRight, Home, LocalPhone, Pho
 
 export const Footer = () => {
     return (
-        <footer>
+        <footer className="footer">
             <Box
-                px={{ xs: 3, sm: 10 }}
-                py={{ xs: 5, sm: 10 }}
-                sx={{ backgroundColor: "#272727" }}
+                px={{ xs: 3, sm: 35 }}
                 color="white"
             >
                 <Container maxWidth="lg">
@@ -130,10 +128,10 @@ export const Footer = () => {
                             </Box>
                         </Grid>
                     </Grid>
-                    <Box textAlign="center" pt={{ xs: 5, sm: 10 }} pb={{ xs: 5, sm: 0 }}>
-                        COPYRIGHT &reg; {new Date().getFullYear()} LIONS-F1
-                    </Box>
                 </Container>
+            </Box>
+            <Box textAlign="center" mt={{ sm: 10 }} py={{ xs: 2 }} className="copyright">
+                COPYRIGHT &reg; {new Date().getFullYear()} LIONS-F1
             </Box>
         </footer>
     )
