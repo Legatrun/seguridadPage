@@ -74,15 +74,16 @@
     display: 'flex';
 }
 
+/* 
 .toolbarLayout {
     margin-bottom: 12px;
-}
+} */
 
 
 
 /* MAIN */
 .boxLayout {
-    padding-bottom: 40px;
+    margin: 12px 0 40px 0;
 }
 
 
@@ -95,6 +96,17 @@
     background-position: center;
     /* background-attachment: fixed; */
 }
+
+.blogContainer {
+    position: relative;
+    /* margin-bottom: 20px; */
+    background-image: url(http://www.lionshieldse.com/images/sampledata/asimage/background/bg.2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
 
 /* .contenedor__item::before {
     content: "";
@@ -109,6 +121,7 @@
 .logoHome {
     position: relative;
     right: -250px;
+    padding: 100px 0;
 }
 
 /* FOOTER */
@@ -126,4 +139,14 @@
     font-size: 24px;
     color: #f2ac29;
     margin-bottom: 5px;
+}
+
+
+.map-container {
+    width: 100%;
+    height: 100%;
+}
+
+.contactoTitle {
+    text-align: center;
 }
