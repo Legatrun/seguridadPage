@@ -92,12 +92,12 @@ export const NavBar = () => {
                             sx={{ height: "100%", width: "20%" }}
                         >
                             <NavLink
-                                to="/blog"
+                                to="/clientes"
                                 className={({ isActive }) =>
                                     `link ${isActive ? 'active' : ''}`
                                 }
                             >
-                                BLOG
+                                CLIENTES
                             </NavLink>
                         </Box>
                         <Box
@@ -173,10 +173,10 @@ export const NavBar = () => {
                         <Link
                             component={RouterLink}
                             color="white"
-                            to="/blog"
+                            to="/clientes"
                             underline="none"
                         >
-                            Blog
+                            Clientes
                         </Link>
                         <Link
                             component={RouterLink}

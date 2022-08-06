@@ -1,7 +1,7 @@
 import { Link as RouterLink } from "react-router-dom";
 import { Grid, IconButton, Link } from "@mui/material"
 import { Box, Container } from "@mui/system"
-import { FacebookOutlined, Twitter, Instagram, ArrowRight, Home, LocalPhone, PhoneIphone, Email } from "@mui/icons-material";
+import { FacebookOutlined, Twitter, Instagram, ArrowRight, Home, LocalPhone, PhoneIphone, Email, AccessTime } from "@mui/icons-material";
 
 export const Footer = () => {
     return (
@@ -12,14 +12,14 @@ export const Footer = () => {
             >
                 <Container maxWidth="lg">
                     <Grid container spacing={5}>
-                        <Grid item xs={12} sm={3}>
+                        <Grid item xs={12} sm={2}>
                             <Box className="title_footer">SERVICIOS</Box>
                             <Box>
                                 <Link to="/" color="white" underline="none" component={RouterLink}>
                                     <IconButton color="action">
                                         <ArrowRight />
                                     </IconButton>
-                                    Seguridad
+                                    Inicio
                                 </Link>
                             </Box>
                             <Box>
@@ -27,7 +27,7 @@ export const Footer = () => {
                                     <IconButton color="action">
                                         <ArrowRight />
                                     </IconButton>
-                                    Empresas
+                                    Nosotros
                                 </Link>
                             </Box>
                             <Box>
@@ -35,15 +35,23 @@ export const Footer = () => {
                                     <IconButton color="action">
                                         <ArrowRight />
                                     </IconButton>
-                                    Hogar
+                                    Servicios
                                 </Link>
                             </Box>
                             <Box>
-                                <Link to="/blog" color="white" underline="none" component={RouterLink}>
+                                <Link to="/clientes" color="white" underline="none" component={RouterLink}>
                                     <IconButton color="action">
                                         <ArrowRight />
                                     </IconButton>
-                                    Hogar
+                                    Clientes
+                                </Link>
+                            </Box>
+                            <Box>
+                                <Link to="/contacto" color="white" underline="none" component={RouterLink}>
+                                    <IconButton color="action">
+                                        <ArrowRight />
+                                    </IconButton>
+                                    Contacto
                                 </Link>
                             </Box>
                         </Grid>
@@ -108,11 +116,12 @@ export const Footer = () => {
                                 </Box>
                             </Grid>
                         </Grid>
-                        <Grid item xs={12} sm={3}>
+                        <Grid item xs={12} sm={4}>
                             <Box className="title_footer">CONTACTO</Box>
                             <Box>
                                 <Home />
-                                Avenida 6 de Marzo No 558 Zona 12 de Octubre
+                                Av. 6 de Marzo Nº558 entre calle 6 y 7
+                                Ceja - El Alto
                             </Box>
                             <Box>
                                 <LocalPhone />
@@ -120,11 +129,15 @@ export const Footer = () => {
                             </Box>
                             <Box>
                                 <PhoneIphone />
-                                76232616
+                                72001649
                             </Box>
                             <Box>
                                 <Email />
-                                none@gmail.com
+                                lionsf1.seguri.bolivia@gmail.com
+                            </Box>
+                            <Box>
+                                <AccessTime />
+                                Lunes a viernes 8.00 - 18.00
                             </Box>
                         </Grid>
                     </Grid>

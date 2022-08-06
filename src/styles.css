@@ -89,40 +89,79 @@
 
 .home {
     position: relative;
-    /* margin-bottom: 20px; */
-    background-image: url(http://www.lionshieldse.com/images/sampledata/asimage/slider/slider.1.jpg?1659316149241);
+    background-image: url(https://lionsf1seguridad.com/wp-content/uploads/2022/07/SLIDER-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
-.blogContainer {
+.clientesContainer {
     position: relative;
-    /* margin-bottom: 20px; */
-    background-image: url(http://www.lionshieldse.com/images/sampledata/asimage/background/bg.2.jpg);
+    background-image: url(https://lionsf1seguridad.com/wp-content/uploads/2022/07/BANNER-1-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
-
-/* .contenedor__item::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: radial-gradient(circle closest-side at 50% 50%, rgba(255, 255, 255, 0) 50%, rgb(0, 0, 0));
-} */
-
-.logoHome {
+.nosotrosContainer {
     position: relative;
-    right: -250px;
-    padding: 100px 0;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/158/017/non_2x/closed-padlock-on-digital-background-cyber-security-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
+
+.serviciosContainer {
+    position: relative;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/816/736/855/police-cars-police-dodge-charger-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.textoFondoOscuro {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 150px 0;
+    margin: 150px 0;
+    color: white;
+    border-bottom: 2px solid #ffc007;
+}
+
+.boxNosotros {
+    height: 396px;
+    background-image: url(https://lionsf1seguridad.com/wp-content/uploads/2022/07/BANNER-PARA-WEB-1-1024x396.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.boxServicio {
+    height: 190px;
+    background-image: url(https://lionsf1seguridad.com/wp-content/uploads/2022/06/BANNER-2-1110x550.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.parrafo {
+    border-bottom: 5px solid #ffc007;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+}
+
+.titleColor {
+    color: #ffc007;
+}
+
 
 /* FOOTER */
 .footer {

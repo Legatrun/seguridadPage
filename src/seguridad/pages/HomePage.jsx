@@ -1,6 +1,8 @@
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import { Logo } from "../components";
 import { SeguridadLayout } from "../layout/SeguridadLayout";
+import { CrisisAlert, Visibility, AddTask, AssistantPhoto, AssuredWorkload, AutoGraph, Balance } from "@mui/icons-material";
+
 
 export const HomePage = () => {
   return (
@@ -15,22 +17,90 @@ export const HomePage = () => {
         className="home"
         sx={{ backgroundColor: "black" }}
       >
-        <Logo />
-        <Grid item sm={9}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eaque iusto culpa maxime dolorem dolore doloribus quis nesciunt temporibus blanditiis animi fugit, quaerat explicabo doloremque, ratione odio ea nam pariatur!
-            Nulla id voluptate libero tenetur natus? Numquam similique iusto quasi suscipit expedita, ut tempora beatae culpa. Adipisci ad, facere facilis et dolor quo voluptas! Voluptatum, tempora! Vel deleniti quam nemo!
-            Deserunt ex repudiandae dolores perferendis libero reprehenderit? Natus est minus eum voluptatem quod pariatur laudantium alias fugiat temporibus facere enim culpa incidunt, sit quaerat vitae suscipit quidem ad similique ducimus.
-            Ut molestiae sunt beatae quas sequi mollitia minima exercitationem ea ratione totam, quod iure quia quibusdam id. Ea et labore molestias totam dolorum corrupti architecto consequatur, expedita numquam libero fugit.
-            Dignissimos, aliquam facilis. Unde corrupti quisquam eius sapiente voluptatibus hic, ad sint porro, rerum non aut? Suscipit reiciendis architecto aliquid corporis explicabo, quis laudantium at perferendis nemo, cumque tenetur enim?
-            Atque nulla quidem ducimus reiciendis officia adipisci delectus alias, tempore asperiores iste voluptate, nisi aut? Porro vitae necessitatibus inventore, voluptates, tempora facilis esse deserunt odio, quae corporis error quis incidunt.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A eaque iusto culpa maxime dolorem dolore doloribus quis nesciunt temporibus blanditiis animi fugit, quaerat explicabo doloremque, ratione odio ea nam pariatur!
-            Nulla id voluptate libero tenetur natus? Numquam similique iusto quasi suscipit expedita, ut tempora beatae culpa. Adipisci ad, facere facilis et dolor quo voluptas! Voluptatum, tempora! Vel deleniti quam nemo!
-            Deserunt ex repudiandae dolores perferendis libero reprehenderit? Natus est minus eum voluptatem quod pariatur laudantium alias fugiat temporibus facere enim culpa incidunt, sit quaerat vitae suscipit quidem ad similique ducimus.
-            Ut molestiae sunt beatae quas sequi mollitia minima exercitationem ea ratione totam, quod iure quia quibusdam id. Ea et labore molestias totam dolorum corrupti architecto consequatur, expedita numquam libero fugit.
-            Dignissimos, aliquam facilis. Unde corrupti quisquam eius sapiente voluptatibus hic, ad sint porro, rerum non aut? Suscipit reiciendis architecto aliquid corporis explicabo, quis laudantium at perferendis nemo, cumque tenetur enim?
-            Atque nulla quidem ducimus reiciendis officia adipisci delectus alias, tempore asperiores iste voluptate, nisi aut? Porro vitae necessitatibus inventore, voluptates, tempora facilis esse deserunt odio, quae corporis error quis incidunthola.</p>
+        <Grid item sm={3}>
+          <Logo />
+        </Grid>
+        <Grid
+          container
+          justifyContent="center"
+          className="textoFondoOscuro"
+        >
+          <Grid
+            item
+            sm={12}
+            className="title"
+            my={5}
+          >
+            <Typography variant="h4">
+              LIONS F1 <span className="titleColor">EMPRESA DE SEGURIDAD</span>
+            </Typography>
+          </Grid>
+          <Grid
+            item
+            sm={12}
+            px={{ xs: 5, sm: 60 }}
+          >
+            <p>LION´S F-1 es una empresa legalmente constituida y acreditada en el país. Incursiona en esta actividad el año 1999, logrando destacarse en muy poco tiempo por su capacidad y eficiencia. Su plantel administrativo está conformado por un equipo de profesionales que durante el desarrollo de su labor se distinguieron en la especialidad de seguridad.
+              La disciplina, responsabilidad y profesionalismo hacen que LION´S F-1 se constituya como una empresa líder en su rubro, y gracias a este compromiso de trabajo mantenemos una importante cartera de clientes en el ámbito nacional.
+              Actualmente contamos con oficinas y sucursales totalmente equipadas en las ciudades de La Paz, Oruro, Cochabamba y Sucre logrando que nuestro trabajo responsable sea el pilar fundamental para nuestro éxito.
+            </p>
+          </Grid>
+          <Grid
+            container
+            my={4}
+            px={{ xs: 0, sm: 60 }}
+          >
+            <Grid item xs={1}>
+              <CrisisAlert fontSize="large" />
+            </Grid>
+            <Grid item xs={11} sm={5} p={{ xs: 2 }}>
+              <h1 className="titleColor">Misión</h1>
+              <p>Otorgar seguridad y tranquilidad a nuestros clientes, portegiendo sus bienes y patrimonio a través de la vigilancia física y/o electrónica  mediante la capacitación  constante a nuestro personal  y el equipamiento de tecnología de vanguardia.</p>
+            </Grid>
+
+            <Grid item xs={1}>
+              <Visibility fontSize="large" />
+            </Grid>
+            <Grid item xs={11} sm={5} p={{ xs: 2 }}>
+              <h1 className="titleColor">Visión</h1>
+              <p>Ser líderes en el mercado de la prestación de servicios de seguridad fisica y/o electrónica de vanguardia a tráves del fortalecimiento de la plataforma de la empresa, con recursos humanos altamente competitivos  que garanticen los beneficios de una vida tranquila.</p>
+            </Grid>
+
+            <Grid item xs={1}>
+              <AssistantPhoto fontSize="large" />
+            </Grid>
+            <Grid item xs={11} sm={5} p={{ xs: 2 }}>
+              <h1 className="titleColor">Responsabilidad</h1>
+              <p>Ofrecemos respuestas precisas ante las circunstancias que nos rodean aplicando nuestra experiencia al servicio. Actuamos de manera consciente lo que nos permite reflexionar, administrar, orientar y valorar las consecuencias de nuestros actos, siempre en un plano moral y profesional.</p>
+            </Grid>
+
+            <Grid item xs={1}>
+              <AssuredWorkload fontSize="large" />
+            </Grid>
+            <Grid item xs={11} sm={5} p={{ xs: 2 }}>
+              <h1 className="titleColor">Profesionalismo</h1>
+              <p>Nos regimos por las normas preestablecidas del respeto, la mesura, la objetividad y la efectividad en la actividad que desempeñamos.</p>
+            </Grid>
+
+            <Grid item xs={1}>
+              <AutoGraph fontSize="large" />
+            </Grid>
+            <Grid item xs={11} sm={5} p={{ xs: 2 }}>
+              <h1 className="titleColor">Honestidad</h1>
+              <p>Nuestro respeto a la verdad brinda y refleja nuestra calidad en el servicio, asegura el bienestar y la confianza de nuestros clientes.</p>
+            </Grid>
+
+            <Grid item xs={1}>
+              <Balance fontSize="large" />
+            </Grid>
+            <Grid item xs={11} sm={5} p={{ xs: 2 }}>
+              <h1 className="titleColor">Lealtad</h1>
+              <p>Cumplimos con nuestros compromisos en la ejecución de nuestros servicios de seguridad privada aún frente a circunstancias cambiantes o adversas para garantizar su seguridad.</p>
+            </Grid>
+
+          </Grid>
         </Grid>
       </Grid>
-    </SeguridadLayout>
+    </SeguridadLayout >
   );
 };
