@@ -1,18 +1,6 @@
 import { Grid, ImageList, Typography } from "@mui/material";
 import { Logo } from "../components";
 import { SeguridadLayout } from "../layout/SeguridadLayout";
-import acero from '../../assets/clientes/acero.png'
-import arcoIris from '../../assets/clientes/arcoIris.png'
-import arcor from '../../assets/clientes/arcor.png'
-import caisy from '../../assets/clientes/caisy.png'
-import ferrotodo from '../../assets/clientes/ferrotodo.png'
-import fubode from '../../assets/clientes/fubode.png'
-import hansa from '../../assets/clientes/hansa.png'
-import pagsiete from '../../assets/clientes/pagsiete.png'
-import pixar from '../../assets/clientes/pixar.png'
-import rengel from '../../assets/clientes/rengel.png'
-import serplac from '../../assets/clientes/serplac.png'
-import soboce from '../../assets/clientes/soboce.png'
 
 export const ClientesPage = () => {
   return (
@@ -37,40 +25,40 @@ export const ClientesPage = () => {
           </Grid>
           <Grid container py={3} px={{ xs: 3, sm: 45 }}>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={acero} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/lbQMJYU.png" alt="acero" width={"100%"} />
             </Grid>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={arcoIris} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/BzxpDVX.png" alt="acero" width={"100%"} />
             </Grid>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={caisy} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/aQFAgAY.png" alt="acero" width={"100%"} />
             </Grid>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={ferrotodo} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/ZgoSZLM.png" alt="acero" width={"100%"} />
             </Grid>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={fubode} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/k54GLXj.png" alt="acero" width={"100%"} />
             </Grid>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={hansa} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/D8YcbPH.png" alt="acero" width={"100%"} />
             </Grid>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={pagsiete} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/GnjF6jV.png" alt="acero" width={"100%"} />
             </Grid>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={arcor} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/58OLXeZ.png" alt="acero" width={"100%"} />
             </Grid>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={pixar} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/AQLaNMh.png" alt="acero" width={"100%"} />
             </Grid>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={serplac} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/YkaLLjB.png" alt="acero" width={"100%"} />
             </Grid>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={rengel} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/GnR9JDX.png" alt="acero" width={"100%"} />
             </Grid>
             <Grid item sm={4} width={{ xs: "50%", sm: 300 }}>
-              <img src={soboce} alt="acero" width={"100%"} />
+              <img src="https://i.imgur.com/S5OgucJ.png" alt="acero" width={"100%"} />
             </Grid>
 
           </Grid>
