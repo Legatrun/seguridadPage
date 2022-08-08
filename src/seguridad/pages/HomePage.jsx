@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import { Logo } from "../components";
 import { SeguridadLayout } from "../layout/SeguridadLayout";
 import { CrisisAlert, Visibility, AddTask, AssistantPhoto, AssuredWorkload, AutoGraph, Balance } from "@mui/icons-material";
@@ -25,6 +25,14 @@ export const HomePage = () => {
           justifyContent="center"
           className="textoFondoOscuro"
         >
+          <Grid
+            item
+            sm={6}
+          >
+            <Box className="homePage">
+
+            </Box>
+          </Grid>
           <Grid
             item
             sm={12}

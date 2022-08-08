@@ -24,6 +24,12 @@ export const NosotrosPage = () => {
           className="textoFondoOscuro"
           px={{ sm: 50 }}
         >
+          <Grid
+            item
+            sm={12}
+          >
+            <Box className="autos"></Box>
+          </Grid>
           <Grid item sm={10} px={{ xs: 3, sm: 0 }}>
             <Typography variant="h3" className="titleColor title">
               Nuestro Objetivo

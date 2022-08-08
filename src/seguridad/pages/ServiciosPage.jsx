@@ -25,6 +25,9 @@ export const ServiciosPage = () => {
           className="textoFondoOscuro"
           px={{ sm: 40 }}
         >
+          <Grid item sm={12} my={{ xs: 0, sm: 10 }} >
+            <Box className="autosServicio"></Box>
+          </Grid>
           <Grid item sm={6} px={{ xs: 3, sm: 3 }}>
             <Typography variant="h4">Por qué <span className="titleColor">elejirnos</span></Typography>
             <Typography variant="subtitle1"><LabelImportant /> Nosotros capacitamos al personal en nuestra aula de instrucción  y en sus instalaciones, definiendo las funciones específicas de la instalación que resguardan.</Typography>
